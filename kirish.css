@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    background-color: #1b1b1b;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.sidebar, .main-content, .friends-list {
+    padding: 20px;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: #2a2a2a;
+}
+
+.profile-info {
+    text-align: center;
+}
+
+.profile-info img.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile-info button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.main-content {
+    width: 50%;
+}
+
+.feed {
+    margin-bottom: 20px;
+}
+
+.feed h2 {
+    margin-bottom: 10px;
+}
+
+.feed .post {
+    background-color: #333;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.feed .post img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.feed input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+    background-color: #444;
+    color: white;
+}
+
+.feed button {
+    background-color: orange;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.friends-list {
+    width: 25%;
+    background-color: #2a2a2a;
+}
+
+.friends-list ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.friends-list ul li {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+
+
+
+

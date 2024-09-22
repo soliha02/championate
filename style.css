@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+   
+}
+.big-container{
+    background-color: bisque;
+    
+}
+
+
+.section-1{
+    display: flex;
+    padding-top: 30px ;
+    padding-bottom: 20px ;
+    gap: 330px;
+}
+header{
+    background-color: black;
+    height: 100px;
+   
+   
+}
+header button{
+    width: 150px;
+height: 50px;
+border-radius: 10px;
+color: #AAAAAA;
+   
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Leave{
+    background-color: red;
+    width: 200h 60px;
+}
+
+.send{
+border: 3px solid red;
+background: none;
+width: 100px;
+height: 40px;
+margin-left: 500px;
+}
+.bgprofil{
+    background-color: white; 
+    color: #AAAAAA;
+    align-items: center;
+    text-align: center;
+width: 350px;
+height: 550px;
+}
+.bgprofil h2{
+  color: blue;
+}
+.coin{
+    background-color: red;
+    width: 350px;
+    height: 60px;
+border-radius: 18px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+margin-top: 95px ;
+}
+
+.coin img{
+    width: 40px;
+
+}
+.coin h2{
+    color: white;
+        align-items: center;
+}
+
+
+.twosection{
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.news img{
+width: 1000px;
+height: 300px;
+}
+
+.helpteacher{
+width: 420px;   
+height: 90px;
+background-color: white;
+display: flex;
+border-radius: 10px;
+gap: 40px;
+
+
+}
+.box img{
+    width: 60px;
+margin-left: 20px;
+margin-top: 10px;
+}
+.box{
+    width: 100px;
+    height: 90px;
+    background-color: #AAAAAA;
+    border-radius: 10px;
+   
+}
+
+
+.mayda button{
+   margin-top: 10px;
+background-color: blue;
+border-radius: 5px;
+width: 100px;
+height: 30px;
+color: white;
+}
+
+
+.newnews{
+    width: 420px;   
+height: 90px;
+background-color: white;
+display: flex;
+border-radius: 10px;
+gap: 40px
+;
+}
+.newnews p{
+   font-size: x-small;
+}
+
+.big-4{
+    gap: 40px;
+    display: flex;  
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.Sertificate {
+    width: 420px;   
+    height: 90px;
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    gap: 40px
+    
+}
+
+.Conectfriend{
+    width: 420px;   
+    height: 90px;
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    gap: 40px
+}
+.Sertificate p {
+    font-size: x-small;
+}
+.Conectfriend p {
+    font-size: x-small;
+}
